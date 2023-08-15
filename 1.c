@@ -13,7 +13,7 @@ int main() {
     for (int i = 0; i < len; i++) {
         for (int j = 0; j < len; j++) {
             int distance = max(max(i, j), max(len - 1 - i, len - 1 - j));
-            printf("%d ", n - distance);
+            printf("the distance is %d ", n - distance);
         }
         printf("\n");
     }
